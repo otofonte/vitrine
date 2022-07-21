@@ -1,0 +1,90 @@
+body{
+	background-color: #f3f3f3;
+	margin: 0px;
+	font-family: 'Segoe UI';
+}
+#splash{
+	color: #ffffff;
+	background-color: #2c3e50;
+	height: 88vh;
+	text-align: center;
+}
+#titulo{
+	padding-top: 250px;
+	font-size: 68px;
+	font-family: 'Anek Telugu';
+	animation: flipY 2.8s infinite;
+}
+#subtitulo{
+	font-family: Courier;
+}
+#container{
+	margin: 24px;
+}
+.item{
+	max-width: 540px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+.imgcard{
+	max-width: 100%;
+	border-top: 12px solid #2c3e50;
+	border-radius: 6px 6px 0px 0px;
+}
+.nome{
+	padding: 12px 18px;
+	margin: -10px 0px 14px -36px;
+	color: #ffffff;
+	background-color: #2c3e50;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 0px 6px 6px 0px;
+	animation: flipX 2.4s infinite;
+}
+.descricao{
+	padding: 20px;
+	border-left: 1px solid #777777;
+	border-right: 1px solid #777777;
+	border-bottom: 12px solid #2c3e50;
+	margin-top: -6px;
+	border-radius: 0px 0px 6px 6px;
+}
+.botao{
+	color: #28a745;
+	background-color: transparent;
+	border: 1px solid #28a745;
+	padding: 6px 10px;
+	border-radius: 4px;
+	font-size: 13px;
+	text-decoration: none;
+}
+.plataforma{
+	color: #6c757d;
+	font-size: 12px;
+	float: right;
+	margin-top: 6px;
+}
+#rodape{
+	padding: 12px;
+	background-color: #2c3e50;
+	text-align: center;
+	color: #ffffff;
+	font-family: Courier;
+}
+@keyframes flipX{
+	92%{
+		transform:rotateX(0deg);
+	}
+	96%{
+		transform:rotateX(90deg);
+	}
+}
+@keyframes flipY{
+	92%{
+		transform:rotateY(0deg);
+	}
+	96%{
+		transform:rotateY(90deg);
+	}
+}
